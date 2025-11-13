@@ -1,7 +1,7 @@
 # Community Software Facility (CSF) Community Playbook
 
 
-[![Documentation Status](https://readthedocs.org/projects/ncar-mkdocs-template/badge/?version=latest)](https://ncar-mkdocs-template.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/csf/badge/?version=latest)](https://csf.readthedocs.io/en/latest/?badge=latest)
 
 This repository was based off of the [NCAR mkdocs template](https://github.com/NCAR/NCAR_mkdocs_template). For instructions on the use of
 the template, see [their documentation](https://ncar-mkdocs-template.readthedocs.io/en/latest/getting-started/).
