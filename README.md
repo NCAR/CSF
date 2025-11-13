@@ -1,17 +1,34 @@
-# Welcome to the NCAR MkDocs Template repository!
+# Community Software Facility (CSF) Community Playbook
 
 
 [![Documentation Status](https://readthedocs.org/projects/ncar-mkdocs-template/badge/?version=latest)](https://ncar-mkdocs-template.readthedocs.io/en/latest/?badge=latest)
 
-This repository serves as a template for generating documentation from markdown files using the [MkDocs](https://www.mkdocs.org/) platform along with the customized [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme. The theme files have been customized to align with NCAR branding and colors and is available in the [NCAR_mkdocs_material_themes](https://github.com/NCAR/NCAR_mkdocs_material_themes).
+This repository was based off of the [NCAR mkdocs template](https://github.com/NCAR/NCAR_mkdocs_template). For instructions on the use of
+the template, see [their documentation](https://ncar-mkdocs-template.readthedocs.io/en/latest/getting-started/).
+
+## Get Started
+Clone and initialize the repository
+
+```
+git clone https://github.com/NCAR/CSF.git
+cd CSF
+git submodule init
+git submodule update --remote
+```
 
 
-## How to Use this Template Repository? 🛠️
+Setup a conda environement
 
-For detailed information on how to get started using this template repository, please visit [this page](https://ncar-mkdocs-template.readthedocs.io/en/latest/getting-started/).
+```
+conda env create -f conda.yaml
+conda activate mkdocs
+```
 
-Example documentations created using this template can be found at [NCAR HPC Documentation](https://ncar-hpc-docs.readthedocs.io/en/latest/).
+Preview local edits
 
+```
+mkdocs serve
+```
 
 ## License
 
@@ -20,7 +37,6 @@ This material is licensed under Creative Commons Attribution ShareAlike 4.0 ([CC
 - **Share** — copy and redistribute the material in any medium or format for any purpose, even commercially.
 
 - **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
-
 
 Under the following terms:
 
